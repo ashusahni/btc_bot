@@ -191,13 +191,7 @@ export default function CaseStudyDetail({ caseStudy }: CaseStudyDetailProps) {
                 </Link>
               )}
 
-              {nextStudy && (
-                <Link
-                  href={`/projects/${nextStudy.slug}`}
-                  className="flex items-center justify-end text-right group ml-auto"
-                >
-                  <div>
-                    <span className="text-sm text-muted-foreground">Next Case Study</span>
+              uted-foreground">Next Case Study</span>
                     <h3 className="font-medium group-hover:text-primary transition-colors">
                       {nextStudy.title}
                     </h3>
