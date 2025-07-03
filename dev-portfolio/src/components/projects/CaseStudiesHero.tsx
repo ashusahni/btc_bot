@@ -10,19 +10,7 @@ export function CaseStudiesHero() {
 
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="text-center max-w-3xl mx-auto"
-        >
-          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-500">Case Studies</span>
-          </h1>
-          <p className="text-xl text-muted-foreground mb-8">
-            Detailed breakdowns of selected projects, the challenges faced, and solutions implemented
-          </p>
-        </motion.div>
-      </div>
+          initial={{ 
     </section>
   );
 }
