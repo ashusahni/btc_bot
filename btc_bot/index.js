@@ -31,7 +31,7 @@ const puppeteer = require("puppeteer");
       // === Your Strategy ===
       if (yesPrice <= 40) {
         console.log("✅ Buying YES...");
-        await page.click("#buy-yes-button"); // Adjust selector
+        await page.click("#buy-yes-"); // Adjust selector
       }
 
       if (noPrice >= 65) {
