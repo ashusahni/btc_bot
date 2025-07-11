@@ -42,7 +42,7 @@ const puppeteer = require("puppeteer");
       await new Promise(r => setTimeout(r, 10000)); // Wait 10 sec
     } catch (err) {
       console.error("Error:", err.message);
-      await new Promise(r => setTimeout(r, 5000));
+      await new Promise(r => setTimeout(r, 2000));
     }
   }
 })();
