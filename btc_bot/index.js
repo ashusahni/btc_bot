@@ -35,7 +35,7 @@ const puppeteer = require("puppeteer");
       }
 
       if (noPrice >= 65) {
-        console.log("✅ Selling NO...");
+        console.log("✅ Selling NO");
         await page.click("#sell-no-button"); // Adjust selector
       }
 
